@@ -16,6 +16,9 @@ public class Image {
     @Column(name = "created_at")
     private Timestamp createdAt;
 
+    private Image() {}
+
+
     public Image(String name) {
         this.name = name;
     }
